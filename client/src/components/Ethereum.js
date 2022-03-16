@@ -25,7 +25,7 @@ export function Ethereum() {
       .catch((error) => {
         console.log(error);
       });
-    }, 5000)
+    }, 1000)
     return () => clearTimeout(timer);
   }, []);
 

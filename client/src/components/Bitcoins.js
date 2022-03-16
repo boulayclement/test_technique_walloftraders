@@ -26,7 +26,7 @@ export function Bitcoins() {
       .catch((error) => {
         console.log(error);
       });
-    }, 5000)
+    }, 1000)
     return () => clearTimeout(timer);
   }, []);
   return (
